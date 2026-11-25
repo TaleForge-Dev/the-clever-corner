@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="The Clever Corner creates practical digital resources for everyday small-business organisation.">
+<title>The Clever Corner | Practical tools for everyday business</title>
+<style>
+:root {
+  --navy: #18233d;
+  --muted: #65708a;
+  --purple: #6546e8;
+  --pale: #f4f1ff;
+  --line: #e8eaf1;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  color: var(--navy);
+  font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+}
+.wrap { width: min(1080px, 90%); margin: auto; }
+header { padding: 20px 0; border-bottom: 1px solid var(--line); }
+.brand { font-size: 21px; font-weight: 800; }
+.logo {
+  display: inline-grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  margin-right: 9px;
+  border-radius: 11px;
+  background: var(--purple);
+  color: white;
+}
+nav { display: flex; justify-content: space-between; align-items: center; }
+nav a { color: var(--purple); text-decoration: none; font-weight: 700; }
+.hero {
+  padding: 85px 0;
+  background: linear-gradient(120deg, white, var(--pale));
+}
+.tag {
+  color: #5034c7;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+h1 {
+  max-width: 760px;
+  font-size: clamp(42px, 7vw, 68px);
+  line-height: 1.08;
+  letter-spacing: -2px;
+}
+h1 span { color: var(--purple); }
+p { color: var(--muted); }
+.hero p { max-width: 650px; font-size: 19px; }
+.button {
+  display: inline-block;
+  padding: 13px 22px;
+  border-radius: 11px;
+  background: var(--purple);
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+section { padding: 65px 0; }
+h2 { font-size: 32px; line-height: 1.2; }
+.product {
+  max-width: 850px;
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  box-shadow: 0 12px 35px #18233d0c;
+}
+.product h3 { font-size: 28px; }
+.product ul { color: var(--muted); padding-left: 22px; }
+.product li { margin: 8px 0; }
+.price { font-size: 29px; font-weight: 850; }
+.small { font-size: 13px; }
+.features { background: #f8f9fc; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.tile {
+  padding: 22px;
+  background: white;
+  border: 1px solid var(--line);
+  border-radius: 15px;
+}
+footer {
+  padding: 28px 0;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 13px;
+}
+@media(max-width:650px) {
+  .grid { grid-template-columns: 1fr; }
+  .hero { padding: 55px 0; }
+  section { padding: 48px 0; }
+  h2 { font-size: 28px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <div class="brand"><span class="logo">C</span>The Clever Corner</div>
+      <a href="#toolkit">Our toolkit</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap">
+    <span class="tag">Simple ideas. Useful tools.</span>
+    <h1>Make the busywork feel <span>simpler.</span></h1>
+    <p>
+      Practical digital resources designed to help people
+      organise everyday tasks, keep on top of details and
+      feel more in control of their work.
+    </p>
+    <a class="button" href="#toolkit">Explore our first toolkit</a>
+  </div>
+</section>
+
+<section id="toolkit">
+  <div class="wrap">
+    <span class="tag">Featured digital product</span>
+    <h2>A clearer way to organise your small business admin.</h2>
+    <div class="product">
+      <span class="tag">Excel workbook + PDF guide</span>
+      <h3>UK Sole Trader Business Toolkit</h3>
+      <p>
+        A practical set of templates to bring common business
+        records and day-to-day admin together in one place.
+      </p>
+      <ul>
+        <li>Quotes and invoices register</li>
+        <li>Job tracker</li>
+        <li>Income and expenses log</li>
+        <li>Simple pricing calculator</li>
+        <li>Monthly business summary</li>
+        <li>UK sole trader quick-start guide</li>
+      </ul>
+      <div class="price">£4.99</div>
+      <p class="small">
+        One-time digital download price. Payment and download
+        access will be provided through our Payhip checkout
+        once the shop is open.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="features">
+  <div class="wrap">
+    <h2>Useful, without the fuss.</h2>
+    <div class="grid">
+      <div class="tile">
+        <h3>Practical by design</h3>
+        <p>Tools built around everyday tasks rather than complicated systems.</p>
+      </div>
+      <div class="tile">
+        <h3>Easy to use</h3>
+        <p>Clear layouts and straightforward instructions to help you get started.</p>
+      </div>
+      <div class="tile">
+        <h3>Digital delivery</h3>
+        <p>Downloadable resources you can keep and adapt to your workflow.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>A little corner for getting things in order.</h2>
+    <p>
+      The Clever Corner is an independent digital resource shop.
+      We aim to make useful, approachable templates for everyday
+      work and small-business organisation. Our resources are
+      general organisational aids and are not a substitute for
+      professional tax, legal or accounting advice.
+    </p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    © 2026 The Clever Corner · Practical digital resources for everyday business.
+  </div>
+</footer>
+
+</body>
+</html>
